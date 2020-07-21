@@ -435,14 +435,14 @@
                                                                    :box (:line-width 1 :style released-button)))))
 
 ;;;;; Org
-   `(org-level-1                                  ((t (:background ,acme-blue-light :foreground ,acme-blue :weight bold :overline t))))
-   `(org-level-2                                  ((t (:background ,acme-blue-light :foreground ,acme-cyan :weight bold :overline t))))
-   `(org-level-3                                  ((t (:background ,acme-blue-light :foreground ,acme-blue :weight bold :overline t))))
-   `(org-level-4                                  ((t (:background ,acme-blue-light :foreground ,acme-cyan))))
-   `(org-level-5                                  ((t (:background ,acme-blue-light :foreground ,acme-blue))))
-   `(org-level-6                                  ((t (:background ,acme-blue-light :foreground ,acme-cyan))))
-   `(org-level-7                                  ((t (:background ,acme-blue-light :foreground ,acme-blue))))
-   `(org-level-8                                  ((t (:background ,acme-blue-light :foreground ,acme-cyan))))
+   `(org-level-1                                  ((t (:foreground ,acme-blue :weight bold))))
+   `(org-level-2                                  ((t (:foreground ,acme-cyan :weight bold))))
+   `(org-level-3                                  ((t (:foreground ,acme-blue :weight bold))))
+   `(org-level-4                                  ((t (:foreground ,acme-cyan))))
+   `(org-level-5                                  ((t (:foreground ,acme-blue))))
+   `(org-level-6                                  ((t (:foreground ,acme-cyan))))
+   `(org-level-7                                  ((t (:foreground ,acme-blue))))
+   `(org-level-8                                  ((t (:foreground ,acme-cyan))))
    `(org-document-title                           ((t (:height 1.2 :foreground ,acme-blue :weight bold :underline t)))) ; #TITLE
    `(org-meta-line                                ((t (:foreground ,acme-green))))
    `(org-document-info                            ((t (:foreground ,acme-cyan :weight normal))))
