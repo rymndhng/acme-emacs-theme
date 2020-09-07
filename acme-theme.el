@@ -444,7 +444,7 @@
    `(org-level-7                                  ((t (:foreground ,acme-blue))))
    `(org-level-8                                  ((t (:foreground ,acme-cyan))))
    `(org-document-title                           ((t (:height 1.2 :foreground ,acme-blue :weight bold :underline t)))) ; #TITLE
-   `(org-meta-line                                ((t (:foreground ,acme-green))))
+   `(org-meta-line                                ((t (:foreground ,acme-green :height 0.7))))
    `(org-document-info                            ((t (:foreground ,acme-cyan :weight normal))))
    `(org-document-info-keyword                    ((t (:foreground ,acme-cyan))))
    `(org-todo                                     ((t (:foreground ,acme-yellow :background ,bg-alt :weight normal :box (:line-width 1 :style released-button)))))
@@ -459,8 +459,8 @@
    `(org-agenda-structure                         ((t (:foreground ,acme-purple))))
    `(org-block                                    ((t (:foreground ,fg :background ,bg-alt :extend t))))
    `(org-block-background                         ((t (:background ,bg-alt :extend t))))
-   `(org-block-begin-line                         ((t (:foreground ,fg-alt :background ,bg-dark :italic t :extend t))))
-   `(org-block-end-line                           ((t (:foreground ,fg-alt :background ,bg-dark :italic t :extend t))))
+   `(org-block-begin-line                         ((t (:foreground ,fg-alt :background ,bg-dark :italic t :extend t :height 0.7))))
+   `(org-block-end-line                           ((t (:foreground ,fg-alt :background ,bg-dark :italic t :extend t :height 0.7))))
 
 ;;;;; origami
    `(origami-fold-replacement-face                ((t (:foreground ,acme-red :background ,acme-red-light
