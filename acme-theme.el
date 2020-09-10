@@ -461,6 +461,7 @@
    `(org-block-background                         ((t (:background ,bg-alt :extend t))))
    `(org-block-begin-line                         ((t (:foreground ,fg-alt :background ,bg-dark :italic t :extend t :height 0.7))))
    `(org-block-end-line                           ((t (:foreground ,fg-alt :background ,bg-dark :italic t :extend t :height 0.7))))
+   `(org-ellipsis                                 ((t (:underline nil))))
 
 ;;;;; origami
    `(origami-fold-replacement-face                ((t (:foreground ,acme-red :background ,acme-red-light
