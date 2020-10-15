@@ -400,6 +400,9 @@
 ;;;;; sh
    `(sh-heredoc-face                              ((t (:foreground ,acme-purple))))
 
+;;;;; tide
+   `(tide-hl-identifier-face                      ((t (:background ,highlight-alt))))
+
 ;;;;; web-mode
    `(web-mode-builtin-face                        ((t (:inherit ,font-lock-builtin-face))))
    `(web-mode-comment-face                        ((t (:inherit ,font-lock-comment-face))))
