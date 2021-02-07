@@ -438,7 +438,7 @@
                                                                    :box (:line-width 1 :style released-button)))))
 
 ;;;;; Org
-   `(org-level-1                                  ((t (:foreground ,acme-blue :weight bold))))
+   `(org-level-1                                  ((t (:background ,acme-blue-light :foreground ,acme-blue :weight bold :overline t))))
    `(org-level-2                                  ((t (:foreground ,acme-cyan :weight bold))))
    `(org-level-3                                  ((t (:foreground ,acme-blue :weight bold))))
    `(org-level-4                                  ((t (:foreground ,acme-cyan))))
