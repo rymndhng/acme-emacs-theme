@@ -457,6 +457,7 @@
    `(org-formula                                  ((t (:foreground ,acme-blue :background ,bg-alt))))
    `(org-code                                     ((t (:foreground ,acme-red :background ,bg-alt))))
    `(org-verbatim                                 ((t (:foreground ,fg :background ,bg-alt :underline t))))
+   `(org-drawer                                   ((t (:foreground, acme-purple :height 0.7))))
    `(org-special-keyword                          ((t (:foreground ,acme-cyan))))
    `(org-agenda-date                              ((t (:foreground ,acme-cyan))))
    `(org-agenda-structure                         ((t (:foreground ,acme-purple))))
