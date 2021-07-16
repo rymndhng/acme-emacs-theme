@@ -374,6 +374,9 @@
    `(show-paren-mismatch                          ((t (:foreground ,acme-yellow :background ,acme-red :weight normal))))
    `(show-paren-match                             ((t (:foreground ,fg :background ,acme-cyan-light :weight normal))))
 
+;;;;; swiper
+   `(swiper-background-match-face-1               ((t (:background ,bg))))
+
 ;;;;; mode-line/sml-mode-line
    `(mode-line                                    ((,class (:foreground ,fg :background ,acme-blue-light :box t))))
    `(mode-line-inactive                           ((t (:foreground ,fg :background ,bg-dark :box t))))
